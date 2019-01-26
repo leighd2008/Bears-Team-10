@@ -1,0 +1,26 @@
+.new-post-card-title {
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+}
+
+.posts {
+  margin-top: 2em;
+  max-width: 90%;
+}
+
+.projectText {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.left-floating-description {
+  max-width: 90%;
+  left: 3em;
+}
+
+.collaborators {
+  max-width: 75%;
+  left: 3em;
+}
+

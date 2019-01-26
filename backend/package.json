@@ -20,23 +20,29 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index",
-    "start": "cross-env NODE_ENVIRONMENT=production node index"
+    "start": "node index.js"
   },
   "dependencies": {
     "@koa/cors": "^2.2.2",
     "apollo-server-koa": "^2.2.5",
+    "bcrypt": "^3.0.2",
     "cross-env": "^5.2.0",
-    "dotenv": "^6.0.0",
+    "dotenv": "^6.2.0",
     "graphql": "^14.0.2",
     "koa": "^2.5.2",
     "koa-bodyparser": "^4.2.1",
     "koa-helmet": "^4.0.0",
     "koa-logger": "^3.2.0",
+    "koa-passport": "^4.1.1",
     "koa-respond": "^1.0.1",
     "koa-router": "^7.4.0",
+    "koa-session": "^5.10.0",
     "koa-static": "^5.0.0",
     "massive": "^5.6.0",
-    "pg": "^7.7.1"
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pg": "^7.7.1",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"

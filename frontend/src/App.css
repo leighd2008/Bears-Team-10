@@ -1,32 +1,87 @@
-.App {
-  text-align: center;
-}
+@import '~antd/dist/antd.css';
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Profile {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 1em;
+}
+
+.Profile_Component {
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.Profile_Photo {
+  display: flex;
+  flex-direction: column;
+}
+
+.Profile_photo_image {
+  margin: 1em;
+}
+
+.Value_Header {
+  height: 1em;
+  width: 1vw;
+}
+.Value_Content {
+  width: 30vw;
+  overflow: auto;
+}
+
+.Profile_Field {
+  width: 90vw;
+  height: 10vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.Edit_Form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Profile_Field:hover + .Edit_Icon {
+  display: block;
+}
+
+.dashboard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.create-project-form {
+  margin-top: 5em;
+}
+
+.ant-layout-header a,
+.ant-layout-header a:visited,
+.ant-layout-header a:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.welcomePage {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-layout-content {
+  height: calc(100% - 64px);
+  min-height: 100vh;
 }

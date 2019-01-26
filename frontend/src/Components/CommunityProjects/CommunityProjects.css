@@ -1,0 +1,12 @@
+.allCardsTitle {
+  margin-bottom: 1em;
+}
+
+.cardTitle {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.allCardsTitle {
+  text-align: center;
+}
